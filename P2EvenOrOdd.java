@@ -11,8 +11,14 @@ public class P2EvenOrOdd {
         // else System.out.println("Odd");
 
         //Ternary Operator
-        String result = num%2==0?"Even":"Odd";
-        System.out.println(result);
+        // String result = num % 2 == 0 ? "Even" : "Odd";
+        // System.out.println(result);
+
+        
+        //Bitwise Operator
+        
+        String result2 =  (num&1)== 1 ? "Odd" : "Even";
+        System.out.println(result2);
 
         input.close();
     }
