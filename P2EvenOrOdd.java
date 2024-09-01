@@ -16,7 +16,6 @@ public class P2EvenOrOdd {
 
         
         //Bitwise Operator
-        
         String result2 =  (num&1)== 1 ? "Odd" : "Even";
         System.out.println(result2);
 
