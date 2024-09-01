@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PositiveOrNegative {
+public class P1PositiveOrNegative {
 
     public static void main(String[] args) {
         int num;
